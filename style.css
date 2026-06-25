@@ -272,24 +272,6 @@ video {
 
     }
 
-    .hidden {
-
-        opacity: 0;
-        transform: translateY(80px);
-        transition: all .8s ease;
-
-    }
-
-    .show {
-
-        opacity: 1;
-        transform: translateY(0);
-        transition:
-            opacity 1s ease,
-            transform 1s ease;
-
-    }
-
 }
 
 
@@ -986,6 +968,34 @@ nav a.active {
 .dark .project-description {
     color: #d1d5db;
 }
+
+.card{
+    color:#111 !important;
+}
+
+.dark .card{
+    color:#fff !important;
+}
+
+
+    .hidden {
+
+        opacity: 0;
+        transform: translateY(80px);
+        transition: all .8s ease;
+
+    }
+
+    .show {
+
+        opacity: 1;
+        transform: translateY(0);
+        transition:
+            opacity 1s ease,
+            transform 1s ease;
+
+    }
+
 
 /* =========================
    MOBILE OPTIMIZATION
