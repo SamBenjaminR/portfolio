@@ -978,7 +978,7 @@ nav a.active {
 }
 
 
-    .hidden {
+    /* .hidden {
 
         opacity: 0;
         transform: translateY(80px);
@@ -994,7 +994,7 @@ nav a.active {
             opacity 1s ease,
             transform 1s ease;
 
-    }
+    } */
 
 /* Project text visibility fix */
 
