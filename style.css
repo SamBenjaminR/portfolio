@@ -996,6 +996,45 @@ nav a.active {
 
     }
 
+/* Project text visibility fix */
+
+.project,
+.project p,
+.project li,
+.project h3,
+.project h4,
+.project span {
+    color: #111;
+}
+
+.dark .project,
+.dark .project p,
+.dark .project li,
+.dark .project h3,
+.dark .project h4,
+.dark .project span {
+    color: #fff;
+}
+
+/* Highlight cards */
+
+.project-highlights div {
+    color: #111;
+}
+
+.dark .project-highlights div {
+    color: #fff;
+}
+
+/* Metrics cards */
+
+.project-metrics div {
+    color: #111;
+}
+
+.dark .project-metrics div {
+    color: #fff;
+}
 
 /* =========================
    MOBILE OPTIMIZATION
