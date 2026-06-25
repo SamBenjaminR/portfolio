@@ -107,30 +107,30 @@ window.addEventListener("scroll", () => {
 // SECTION REVEAL ANIMATION
 // =========================
 
-const sections =
-document.querySelectorAll("section");
+// const sections =
+// document.querySelectorAll("section");
 
-const observer =
-new IntersectionObserver((entries) => {
+// const observer =
+// new IntersectionObserver((entries) => {
 
-    entries.forEach((entry) => {
+//     entries.forEach((entry) => {
 
-        if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-        }
+//         if (entry.isIntersecting) {
+//             entry.target.classList.add("show");
+//         }
 
-    });
+//     });
 
-}, {
-    threshold: 0.15
-});
+// }, {
+//     threshold: 0.15
+// });
 
-sections.forEach((section) => {
+// sections.forEach((section) => {
 
-    section.classList.add("hidden");
-    observer.observe(section);
+//     section.classList.add("hidden");
+//     observer.observe(section);
 
-});
+// });
 
 
 // =========================
